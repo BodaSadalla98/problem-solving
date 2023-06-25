@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1539366044 source:c:\users\bodasadalla\desktop\problems\heaters\main.cpp
-	<bits/stdc++.h>
-	<iostream>
-	"vector"
-	<algorithm>
-

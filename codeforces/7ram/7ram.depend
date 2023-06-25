@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1502229623 source:c:\users\bodasadalla\desktop\problems\7ram\main.cpp
-	<iostream>
-	<vector>
-	<string>
-	<algorithm>
-

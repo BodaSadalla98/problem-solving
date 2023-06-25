@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1539591959 source:c:\users\bodasadalla\desktop\problems\qtest\main.cpp
-	<iostream>
-	<vector>
-	<cstdlib>
-	<bits/stdc++.h>
-
