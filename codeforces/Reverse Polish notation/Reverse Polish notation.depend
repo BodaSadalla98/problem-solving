@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585576962 source:/home/boda/Desktop/Problems/Reverse Polish notation/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

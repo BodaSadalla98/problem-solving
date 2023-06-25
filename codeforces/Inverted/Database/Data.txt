@@ -1,0 +1,9 @@
+ana: 
+1 time in : /home/boda/Desktop/Data/data4.txt
+boda: 
+1 time in : /home/boda/Desktop/Data/data.txt
+2 time in : /home/boda/Desktop/Data/data2.txt
+3 time in : /home/boda/Desktop/Data/data4.txt
+mesh: 
+1 time in : /home/boda/Desktop/Data/data2.txt
+2 time in : /home/boda/Desktop/Data/data4.txt

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585571204 source:/home/boda/Desktop/Problems/ XML consistency/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

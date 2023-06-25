@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543339642 source:c:\users\bodasadalla\desktop\problems\fancy fence\main.cpp
+	<iostream>
+	<math.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605020605 source:/home/boda/Desktop/Problems/Minimizing Coins/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

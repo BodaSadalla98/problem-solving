@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1541606483 source:c:\users\bodasadalla\desktop\problems\test77\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<memory.h>
+	<limits.h>
+	<math.h>
+	<string.h>
+	<string>
+	<algorithm>
+	<vector>
+	<queue>
+	<stack>
+	<set>
+	<map>
+

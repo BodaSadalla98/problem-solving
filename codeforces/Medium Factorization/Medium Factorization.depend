@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1571098439 source:c:\users\bodasadalla\desktop\problems\medium factorization\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

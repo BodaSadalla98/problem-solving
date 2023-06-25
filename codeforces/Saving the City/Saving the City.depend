@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604348453 source:/home/boda/Desktop/Problems/Saving the City/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

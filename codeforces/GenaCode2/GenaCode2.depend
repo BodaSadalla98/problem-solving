@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545264671 source:c:\users\bodasadalla\desktop\problems\genacode2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

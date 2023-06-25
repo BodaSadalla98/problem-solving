@@ -1,0 +1,42 @@
+#include <iostream>
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    long  en=0 ;
+    long be=LONG_MAX;
+    int n;cin>>n;
+    pair<long,long>arr[n];
+
+    for(int i=0;i<n;i++){cin>>arr[i].first>>arr[i].second;en=max(en,arr[i].second); be=min(be,arr[i].first);
+
+    }
+
+    int kam=0;
+    for(int i=be;i<=en;i++){
+     for(int j=0;j<n;j++){
+
+
+        if((arr[j].first<=i)&&(arr[j].second>=i))
+        {
+            kam++;
+
+        }
+        if(kam>2)break;
+
+
+     }
+
+     if(kam>2)break;
+     kam=0;
+
+
+
+    }
+    if(kam>2)cout<<"NO";
+    else
+        cout<<"YES";
+    return 0;
+}

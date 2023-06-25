@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605284002 source:/home/boda/Desktop/Problems/Engineer Artem/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

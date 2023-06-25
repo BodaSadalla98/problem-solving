@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539793072 source:c:\users\bodasadalla\desktop\problems\lcm_three_sequencex\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562342368 source:c:\users\bodasadalla\desktop\problems\number circle\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

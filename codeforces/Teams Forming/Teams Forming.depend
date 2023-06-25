@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545145086 source:c:\users\bodasadalla\desktop\problems\teams forming\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

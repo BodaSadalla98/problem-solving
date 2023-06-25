@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545927303 source:c:\users\bodasadalla\desktop\problems\powers of two\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

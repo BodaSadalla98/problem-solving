@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603736328 source:/home/boda/Desktop/Problems/Greg and Graph/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

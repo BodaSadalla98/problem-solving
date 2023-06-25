@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1571930249 source:c:\users\bodasadalla\desktop\problems\broken keyboard\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

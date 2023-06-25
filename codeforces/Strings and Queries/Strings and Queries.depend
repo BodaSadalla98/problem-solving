@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605212642 source:/home/boda/Desktop/Problems/Strings and Queries/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

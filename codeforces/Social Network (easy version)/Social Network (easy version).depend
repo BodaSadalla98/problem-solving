@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1569943993 source:c:\users\bodasadalla\desktop\problems\social network (easy version)\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

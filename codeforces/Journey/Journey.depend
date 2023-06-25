@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1568722555 source:c:\users\bodasadalla\desktop\problems\journey\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

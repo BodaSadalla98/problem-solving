@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605527609 source:/home/boda/Desktop/Problems/New Year Tree/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

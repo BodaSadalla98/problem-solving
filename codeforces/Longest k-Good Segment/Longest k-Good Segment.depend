@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1537820038 source:c:\users\bodasadalla\desktop\problems\longest k-good segment\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

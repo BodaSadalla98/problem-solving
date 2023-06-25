@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509030422 source:c:\users\bodasadalla\desktop\problems\borya's diagnosis\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

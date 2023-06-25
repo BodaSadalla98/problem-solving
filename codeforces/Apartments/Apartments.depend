@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605013826 source:/home/boda/Desktop/Problems/Apartments/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

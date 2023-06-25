@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545153390 source:c:\users\bodasadalla\desktop\problems\prefixes and suffixes\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1160559172 source:c:\users\bodasadalla\desktop\ccc_graphics\ccc_msw.cpp
+	<cmath>
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	"ccc_msw.h"
+
+1458426229 c:\users\bodasadalla\desktop\ccc_graphics\ccc_msw.h
+	<string>
+	<Windows.h>
+	"ccc_shap.h"
+
+1160558734 c:\users\bodasadalla\desktop\ccc_graphics\ccc_shap.h
+	<string>
+
+1521189350 source:c:\users\bodasadalla\desktop\ccc_graphics\ccc_shap.cpp
+	<cstdio>
+	"ccc_shap.h"
+
+1024373264 source:c:\users\bodasadalla\desktop\ccc_graphics\ccc_time.cpp
+	<ctime>
+	<cassert>
+	"ccc_time.h"
+
+1024373264 c:\users\bodasadalla\desktop\ccc_graphics\ccc_time.h
+

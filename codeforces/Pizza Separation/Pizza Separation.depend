@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511980404 source:c:\users\bodasadalla\desktop\problems\ pizza separation\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

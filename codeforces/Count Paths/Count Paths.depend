@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1570897046 source:c:\users\bodasadalla\desktop\problems\count paths\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

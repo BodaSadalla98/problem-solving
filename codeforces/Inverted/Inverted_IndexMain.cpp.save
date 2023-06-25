@@ -1,0 +1,121 @@
+/***************************************************************
+ * Name:      Inverted_IndexMain.cpp
+ * Purpose:   Code for Application Frame
+ * Author:    Boda ()
+ * Created:   2020-04-20
+ * Copyright: Boda ()
+ * License:
+ **************************************************************/
+
+#include "Inverted_IndexMain.h"
+#include <wx/msgdlg.h>
+
+//(*InternalHeaders(Inverted_IndexFrame)
+#include <wx/settings.h>
+#include <wx/string.h>
+#include <wx/intl.h>
+//*)
+
+//helper functions
+enum wxbuildinfoformat {
+    short_f, long_f };
+
+wxString wxbuildinfo(wxbuildinfoformat format)
+{
+    wxString wxbuild(wxVERSION_STRING);
+
+    if (format == long_f )
+    {
+#if defined(__WXMSW__)
+        wxbuild << _T("-Windows");
+#elif defined(__UNIX__)
+        wxbuild << _T("-Linux");
+#endif
+
+#if wxUSE_UNICODE
+        wxbuild << _T("-Unicode build");
+#else
+        wxbuild << _T("-ANSI build");
+#endif // wxUSE_UNICODE
+    }
+
+    return wxbuild;
+}
+
+//(*IdInit(Inverted_IndexFrame)
+const long Inverted_IndexFrame::ID_BITMAPBUTTON1 = wxNewId();
+const long Inverted_IndexFrame::ID_CHOICE1 = wxNewId();
+const long Inverted_IndexFrame::ID_STATICTEXT1 = wxNewId();
+const long Inverted_IndexFrame::idMenuQuit = wxNewId();
+const long Inverted_IndexFrame::idMenuAbout = wxNewId();
+const long Inverted_IndexFrame::ID_STATUSBAR1 = wxNewId();
+//*)
+
+BEGIN_EVENT_TABLE(Inverted_IndexFrame,wxFrame)
+    //(*EventTable(Inverted_IndexFrame)
+    //*)
+END_EVENT_TABLE()
+
+Inverted_IndexFrame::Inverted_IndexFrame(wxWindow* parent,wxWindowID id)
+{
+    //(*Initialize(Inverted_IndexFrame)
+    wxMenuItem* MenuItem2;
+    wxMenuItem* MenuItem1;
+    wxMenu* Menu1;
+    wxMenuBar* MenuBar1;
+    wxMenu* Menu2;
+
+    Create(parent, id, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("id"));
+    BitmapButton1 = new wxBitmapButton(this, ID_BITMAPBUTTON1, wxNullBitmap, wxPoint(48,152), wxSize(96,16), wxBU_AUTODRAW, wxDefaultValidator, _T("ID_BITMAPBUTTON1"));
+    Choice1 = new wxChoice(this, ID_CHOICE1, wxPoint(120,248), wxDefaultSize, 0, 0, 0, wxDefaultValidator, _T("ID_CHOICE1"));
+    StaticText1 = new wxStaticText(this, ID_STATICTEXT1, _("Enter Text Here"), wxPoint(232,120), wxSize(128,32), 0, _T("ID_STATICTEXT1"));
+    StaticText1->SetForegroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_GRADIENTINACTIVECAPTION));
+    StaticText1->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_HOTLIGHT));
+    MenuBar1 = new wxMenuBar();
+    Menu1 = new wxMenu();
+    MenuItem1 = new wxMenuItem(Menu1, idMenuQuit, _("Quit\tAlt-F4"), _("Quit the application"), wxITEM_NORMAL);
+    Menu1->Append(MenuItem1);
+    MenuBar1->Append(Menu1, _("&File"));
+    Menu2 = new wxMenu();
+    MenuItem2 = new wxMenuItem(Menu2, idMenuAbout, _("About\tF1"), _("Show info about this application"), wxITEM_NORMAL);
+    Menu2->Append(MenuItem2);
+    MenuBar1->Append(Menu2, _("Help"));
+    SetMenuBar(MenuBar1);
+    StatusBar1 = new wxStatusBar(this, ID_STATUSBAR1, 0, _T("ID_STATUSBAR1"));
+    int __wxStatusBarWidths_1[1] = { -1 };
+    int __wxStatusBarStyles_1[1] = { wxSB_NORMAL };
+    StatusBar1->SetFieldsCount(1,__wxStatusBarWidths_1);
+    StatusBar1->SetStatusStyles(1,__wxStatusBarStyles_1);
+    SetStatusBar(StatusBar1);
+
+    Connect(ID_CHOICE1,wxEVT_COMMAND_CHOICE_SELECTED,(wxObjectEventFunction)&Inverted_IndexFrame::OnChoice1Select);
+    Connect(idMenuQuit,wxEVT_COMMAND_MENU_SELECTED,(wxObjectEventFunction)&Inverted_IndexFrame::OnQuit);
+    Connect(idMenuAbout,wxEVT_COMMAND_MENU_SELECTED,(wxObjectEventFunction)&Inverted_IndexFrame::OnAbout);
+    Connect(wxID_ANY,wxEVT_CLOSE_WINDOW,(wxObjectEventFunction)&Inverted_IndexFrame::OnClose);
+    //*)
+}
+
+Inverted_IndexFrame::~Inverted_IndexFrame()
+{
+    //(*Destroy(Inverted_IndexFrame)
+    //*)
+}
+
+void Inverted_IndexFrame::OnQuit(wxCommandEvent& event)
+{
+    Close();
+}
+
+void Inverted_IndexFrame::OnAbout(wxCommandEvent& event)
+{
+    wxString msg = wxbuildinfo(long_f);
+    wxMessageBox(msg, _("Welcome to..."));
+}
+
+void Inverted_IndexFrame::OnClose(wxCloseEvent& event)
+{
+}
+
+void Inverted_IndexFrame::OnChoice1Select(wxCommandEvent& event)
+{
+}

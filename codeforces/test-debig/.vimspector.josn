@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "Launch": {
+            "adapter": "vscode-cpptools",
+                "configuration": {
+                    "requesti": "launch",
+                    "program": "test",
+                    "cwd": "/home/boda/Desktop/Problems/test-debig",
+                    "externalConsole": true,
+                    "MIMode": "gdb"
+                }
+        }    }
+}

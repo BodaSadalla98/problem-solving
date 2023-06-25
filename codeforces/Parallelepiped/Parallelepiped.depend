@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545255407 source:c:\users\bodasadalla\desktop\problems\parallelepiped\main.cpp
+	<iostream>
+	<math.h>
+

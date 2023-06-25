@@ -1,0 +1,42 @@
+#include <iostream>
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    int t;cin>>t;
+
+
+    while(t--){
+        int n,x;
+        cin>>n>>x;
+        vector<int> v(n);
+        for(int i=0;i<n;i++)
+                cin>>v[i];
+
+        long long money = 0;
+        sort(v.rbegin(),v.rend());
+
+        for(auto i : v)
+            money += max(0, i-x);
+
+        int ans = 0;
+        for(auto i : v){
+            if(i < x ){
+                if(money >= x-i){
+                    ans++;
+                    money-= x-i;
+                }
+
+            }
+            else
+                ans++;
+
+        }
+
+        cout <<ans<<"\n";
+    }
+
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604411652 source:/home/boda/Desktop/Problems/Finding Sasuke/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541175381 source:c:\users\bodasadalla\desktop\problems\train\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+

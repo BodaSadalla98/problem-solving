@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604152979 source:/home/boda/Desktop/Problems/Anya and Cubes/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

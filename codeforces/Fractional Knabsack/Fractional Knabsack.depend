@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1538916829 source:c:\users\bodasadalla\desktop\problems\fractional knabsack\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543173992 source:c:\users\bodasadalla\desktop\problems\bit++\main.cpp
+	<iostream>
+	<string.h>
+	<vector>
+

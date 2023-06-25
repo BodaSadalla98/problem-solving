@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603814351 source:/home/boda/Desktop/Problems/Reverse Binary Strings/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

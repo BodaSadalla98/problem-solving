@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1024373264 source:c:\users\bodasadalla\desktop\cccfiles\ccc_asc.cpp
+	<cmath>
+	<cstdlib>
+	<iostream>
+	"ccc_asc.h"
+
+1024373264 c:\users\bodasadalla\desktop\cccfiles\ccc_asc.h
+	"ccc_shap.h"
+
+1024373264 c:\users\bodasadalla\desktop\cccfiles\ccc_shap.h
+	<string>
+
+1024284678 source:c:\users\bodasadalla\desktop\cccfiles\ccc_empl.cpp
+	"ccc_empl.h"
+
+1024373264 c:\users\bodasadalla\desktop\cccfiles\ccc_empl.h
+	<string>
+
+1029455416 source:c:\users\bodasadalla\desktop\cccfiles\ccc_msw.cpp
+	<cmath>
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	"ccc_msw.h"
+
+1029455416 c:\users\bodasadalla\desktop\cccfiles\ccc_msw.h
+	<string>
+	<windows.h>
+	"ccc_shap.h"
+
+1024284678 source:c:\users\bodasadalla\desktop\cccfiles\ccc_shap.cpp
+	<cstdio>
+	"ccc_shap.h"
+
+1024373264 source:c:\users\bodasadalla\desktop\cccfiles\ccc_time.cpp
+	<ctime>
+	<cassert>
+	"ccc_time.h"
+
+1024373264 c:\users\bodasadalla\desktop\cccfiles\ccc_time.h
+
+1521190363 source:c:\users\bodasadalla\desktop\cccfiles\ccc_wxw.cpp
+
+1521190386 source:c:\users\bodasadalla\desktop\cccfiles\ccc_x11.cpp
+

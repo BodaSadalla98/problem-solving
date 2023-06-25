@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544885601 source:c:\users\bodasadalla\desktop\problems\letters rearranging\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

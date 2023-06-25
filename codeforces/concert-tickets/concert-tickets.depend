@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605017843 source:/home/boda/Desktop/Problems/concert-tickets/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

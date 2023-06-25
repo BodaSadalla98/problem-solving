@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603202568 source:/home/boda/Desktop/Problems/trst/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

@@ -1,0 +1,51 @@
+#include <iostream>
+#include"bits/stdc++.h"
+
+using namespace std;
+
+
+int main()
+
+{
+
+    int t;cin>>t;
+    while(t--){
+        int used_colors = 0;
+        int n;cin>>n;
+        vector<int> colors(n), v(n) ;
+        vector<int> vis(n,0);
+        //memset(vis,0, sizeof vis);
+        for(int i=0;i<n;i++)cin>>v[i];
+
+
+        for(int i=0;i<n;i++){
+                if(vis[i])continue;
+
+                    vis[i]= 1;
+                    colors[i] = ++used_colors;
+                for(int j=i+1;j<n;j++){
+                if(!vis[j]  && __gcd(v[j], v[i]) > 1 ){
+                    vis[j] = 1;
+                    colors[j] = colors[i];
+
+
+
+                }
+
+
+            }
+
+
+        }
+
+
+
+        cout<< used_colors <<endl;
+        for(int i=0;i<n;i++)
+            cout<<colors[i]<<"   " << v[i] << endl ;
+        cout<<endl;
+
+    }
+
+    return 0;
+}

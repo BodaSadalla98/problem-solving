@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1606045257 source:/home/boda/Desktop/Problems/Subtract or Divide/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539881093 source:c:\users\bodasadalla\desktop\problems\elevator or stairs\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

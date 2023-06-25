@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585775368 source:/home/boda/Desktop/Problems/Binary Search/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

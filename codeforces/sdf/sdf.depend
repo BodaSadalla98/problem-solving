@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1587407976 source:/home/boda/Desktop/Problems/sdf/main.cpp
+	<iostream>
+	<vector>
+	<map>
+	<fstream>
+	<filesystem>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603811209 source:/home/boda/Desktop/Problems/Chef Monocarp/main.cpp
+	<iostream>
+	"bits/stdc++.h"
+

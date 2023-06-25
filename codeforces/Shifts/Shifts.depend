@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1571587447 source:c:\users\bodasadalla\desktop\problems\shifts\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

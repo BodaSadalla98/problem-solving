@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1502140886 source:c:\users\bodasadalla\desktop\problems\qs2\main.cpp
+	<iostream>
+	<string>
+	<bits/stdc++.h>
+

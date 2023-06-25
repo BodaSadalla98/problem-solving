@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539097359 source:c:\users\bodasadalla\desktop\problems\collecting signatures\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
